@@ -19,7 +19,9 @@ body {
     font-size: 16px;
     font-weight: 400;
     padding-bottom: 5px;
+    font-weight: bolder;
 }
+
 
 .especial {
 
@@ -63,4 +65,9 @@ h2 {
     font-weight: 400;
     font-size: 16px;
     color: #ECD6C4;
+}
+
+.paragrafo {
+
+    font-size: 16px;
 }

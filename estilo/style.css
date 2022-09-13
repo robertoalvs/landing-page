@@ -52,7 +52,22 @@ body {
     color: #FFF2E7;
     font-weight: 400;
     font-size: 18px;
+    font-weight: bolder;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 0;
+    transition-timing-function: ease-in-out;
+    text-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
 }
+
+
+.menu-item:hover {
+
+    transform: translateY(40px);
+    height: 40px;
+    
+}
+
 
 .conteudo {
     
@@ -107,13 +122,13 @@ a:hover {
 }
 
 
-
 h1 {
 
     font-family: var(--fonte-google);
     font-weight: 400;
     font-size: 60px;
     color: #FFF2E7;
+    text-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
 }
 
 h2 {
