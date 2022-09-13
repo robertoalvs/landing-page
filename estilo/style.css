@@ -74,8 +74,18 @@ body {
 .img-conteudo-principal {
 
     height: 280px;
-    
+    transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 0;
+    transition-timing-function: ease-in-out;
 }
+
+.img-conteudo-principal:hover {
+    
+    transform: translateY(100px);
+    height: 180px;
+}
+
 
 .conteudo-principal {
 
