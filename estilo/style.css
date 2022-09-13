@@ -21,8 +21,9 @@ body {
 
     font-size: 100%;
     background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
-    width: 100vw;
+    width: 98vw;
     height: 100vh;
+    margin: auto;
 }
 
 .cabecalho {
@@ -65,5 +66,114 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    margin-top: 2%;
+    margin-bottom: 50px;
+    
 }
 
+.img-conteudo-principal {
+
+    height: 280px;
+    
+}
+
+.conteudo-principal {
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px; 
+}
+
+
+a {
+
+    color: #2F2325;
+}
+
+
+
+a:hover {
+    color: #FFF2E7;
+}
+
+
+
+h1 {
+
+    font-family: var(--fonte-google);
+    font-weight: 400;
+    font-size: 60px;
+    color: #FFF2E7;
+}
+
+h2 {
+
+    font-family: var(--fonte-google2);
+    font-weight: 400;
+    font-size: 24px;
+    color: #ECD6C4;
+}
+
+.botao {
+
+    background-color: #ECD6C4;
+    width: 160px;
+    height: 55px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: var(--fonte-google2);
+    font-weight: 400;
+    font-size: 24px;
+    color: #2F2325;
+}
+
+.botao:hover {
+
+   color: #FFF2E7;
+   background: #8e5d5273;
+}
+
+.sessao-secundaria {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+h3 {
+
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: var(--fonte-google);
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2E7;
+    margin-bottom: 16px;
+}
+
+.paragrafo {
+
+    font-family: var(--fonte-google2);
+    font-weight: 300;
+    font-size: 18px;
+    color: #ECD6C4;
+}
+
+.rodape {
+
+    border-top: 0.4px solid #FFF2E7;
+    padding: 32px;
+    
+}
+
+.img-rodape {
+
+    height: 60px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    
+}
